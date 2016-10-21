@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+ UGENE - Integrated Bioinformatics Tools.
+ Copyright (C) 2008-2016 UniPro <ugene@unipro.ru>
+ http://ugene.unipro.ru
+ 
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ MA 02110-1301, USA.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="qrc:///javascript/bootstrap/css/bootstrap.min.css"/>
+    <style>
+        h3 {
+            margin-bottom: 25px;
+        }
+        .features_list li {
+            margin-bottom: 14px;
+            list-style-type: square;
+        }
+        .features_list li:last-child {
+            margin-bottom: 0;
+        }
+        .sub_features_list li {
+            margin-top: 4px;
+            margin-bottom: 4px;
+            margin-left: -6px;
+            list-style-type: none;
+        }
+        .sub_features_list li:before {
+            content: "- ";
+        }
+        .research_field {
+            font-style: italic;
+            font-weight: bold;
+            margin-right: 1px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h3 lang="en">Major changes in UGENE 1.24</h3>
+    <ul class="features_list" lang="en">
+        <li><span class="research_field">Workflow Designer:</span>
+            <ul class="sub_features_list">
+                <li>New element: "Convert SnpEff Variations to Annotations". Element converts variations with SnpEff information into standard annotations, so you can observe them in the Sequence View.</li>
+                <li>NGS workflows improvements.</li>
+            </ul>
+        </li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h3 lang="ru">Изменения в UGENE 1.24</h3>
+    <ul class="features_list" lang="ru">
+        <li><span class="research_field">Дизайнер вычислительных схем:</span>
+            <ul class="sub_features_list">
+                <li>Новый элемент: "Преобразование вариаций SnpEff в аннотации". Элемент преобразует вариации с информацией от SnpEff в стандартные аннотации, которые вы можете открыть в редакторе последовательностей.</li>
+                <li>Улучшения схем NGS.</li>
+            </ul>
+        </li>
+        <li>Исправление ошибок.</li>
+    </ul>
+
+</div>
+</body>
